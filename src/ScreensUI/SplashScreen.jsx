@@ -20,7 +20,7 @@ const SplashScreen = ({ navigation }) => {
         barStyle="light-content"
       />
       {/* Your logo or animation */}
-      <Image source={require("../../assets/tallogo.svg")} style={styles.logo} />
+      <Image source={require("../../assets/tallogo.png")} style={styles.logo} />
       <Text style={styles.title}>Welcome TAL</Text>
       <Text style={styles.caption}>Loading…</Text>
     </View>

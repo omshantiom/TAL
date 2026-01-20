@@ -43,28 +43,13 @@ const HomeScreen = () => {
     <ScrollView style={styles.scroll} contentContainerStyle={styles.content}>
       <View style={styles.container}>
         <View style={styles.imgcontainer}>
-          <Image
-            source={require("../../assets/img1.webp")}
-            style={styles.img}
-          />
-          <Image
-            source={require("../../assets/img2.webp")}
-            style={styles.img}
-          />
-          <Image
-            source={require("../../assets/img3.webp")}
-            style={styles.img}
-          />
-          <Image
-            source={require("../../assets/img4.webp")}
-            style={styles.img}
-          />
+          <Image source={require("../../assets/img1.png")} style={styles.img} />
+          <Image source={require("../../assets/img2.png")} style={styles.img} />
+          <Image source={require("../../assets/img3.png")} style={styles.img} />
+          <Image source={require("../../assets/img4.png")} style={styles.img} />
         </View>
         <View style={styles.imgcontainer}>
-          <Image
-            source={require("../../assets/img5.webp")}
-            style={styles.img}
-          />
+          <Image source={require("../../assets/img5.png")} style={styles.img} />
         </View>
         <Text style={styles.txtheaderStyle}>Get an online quick quote</Text>
         <Text style={styles.txtdesStyle}>Life Insurance</Text>
@@ -145,7 +130,7 @@ const HomeScreen = () => {
         <View style={styles.bottomcontainer}>
           <View>
             <Image
-              source={require("../../assets/tallogo.svg")}
+              source={require("../../assets/tallogo.png")}
               style={styles.imgbottom}
             />
             <Image

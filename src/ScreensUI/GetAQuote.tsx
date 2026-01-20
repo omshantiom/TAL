@@ -20,7 +20,7 @@ const GetAQuote = () => {
         backgroundColor="transparent"
         barStyle="light-content"
       />
-      <Image source={require("../../assets/tallogo.svg")} style={styles.logo} />
+      <Image source={require("../../assets/tallogo.png")} style={styles.logo} />
       <Text style={styles.title}>GetAQuote</Text>
       <Button
         onPress={() => navigation.navigate("HomeScreen")}
